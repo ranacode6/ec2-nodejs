@@ -20,6 +20,4 @@ COPY . .
 
 EXPOSE 8000
 
-RUN npm run build
-
 CMD [ "node", "index.js" ]
