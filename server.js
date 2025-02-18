@@ -6,7 +6,7 @@ import authRoutes from './routes/authRoute.js';
 import taskRoutes from './routes/taskRoute.js';
 import { authenticateToken } from './middleware/authMiddleware.js';
 
-// dotenv.config();
+dotenv.config();
 
 const app = express();
 const corsOptions = {
